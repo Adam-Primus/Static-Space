@@ -1,15 +1,15 @@
 [gd_scene format=3 uid="uid://dbo5dwldup5wi"]
 
-[ext_resource type="Script" uid="uid://dqfhxi8q4vr73" path="res://Scenes/title_scenes.gd" id="1_jqlw3"]
-[ext_resource type="Texture2D" uid="uid://drbcbhqpmqsxm" path="res://Bg-updated.png" id="1_yhoy3"]
+[ext_resource type="Script" uid="uid://dqfhxi8q4vr73" path="res://scenes/title_scenes.gd" id="1_1jo8x"]
+[ext_resource type="Texture2D" uid="uid://drbcbhqpmqsxm" path="res://Bg-updated.png" id="2_a8qdn"]
 
 [node name="Title-screen" type="Node2D" unique_id=1564456291]
-script = ExtResource("1_jqlw3")
+script = ExtResource("1_1jo8x")
 
 [node name="Background" type="TextureRect" parent="." unique_id=439334526]
 offset_right = 1152.0
 offset_bottom = 648.0
-texture = ExtResource("1_yhoy3")
+texture = ExtResource("2_a8qdn")
 
 [node name="Title" type="RichTextLabel" parent="." unique_id=518961882]
 clip_contents = false

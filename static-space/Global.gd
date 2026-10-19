@@ -1,4 +1,4 @@
-extends Node
+extends Node2D
 
 var minigames_done = 0 #track how many minigames done
 var lives = 3 #track how many lives left, also effecting garlic appearing
@@ -9,5 +9,5 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass

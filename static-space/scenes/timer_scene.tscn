@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://c34bj10ri1hgh"]
 
-[ext_resource type="Script" uid="uid://b2wfyywg44sb" path="res://Scenes/timer-scene.gd" id="1_c7xwe"]
-[ext_resource type="Texture2D" uid="uid://drbcbhqpmqsxm" path="res://Bg-updated.png" id="2_2fcgv"]
-[ext_resource type="Texture2D" uid="uid://bbfnx0eglgf6x" path="res://Stiker-2.png" id="3_qnqh0"]
+[ext_resource type="Script" uid="uid://b2wfyywg44sb" path="res://scenes/timer-scene.gd" id="1_bqqen"]
+[ext_resource type="Texture2D" uid="uid://drbcbhqpmqsxm" path="res://Bg-updated.png" id="2_cn1cu"]
+[ext_resource type="Texture2D" uid="uid://bbfnx0eglgf6x" path="res://Stiker-2.png" id="3_jt8gb"]
 
-[node name="level-screen" type="Node2D" unique_id=1809904127]
-script = ExtResource("1_c7xwe")
+[node name="timer-screen" type="Node2D" unique_id=1809904127]
+script = ExtResource("1_bqqen")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2094144071]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("2_2fcgv")
+texture = ExtResource("2_cn1cu")
 
 [node name="Level" type="RichTextLabel" parent="." unique_id=202548171]
 offset_left = 503.0
@@ -36,12 +36,12 @@ offset_bottom = 286.0
 
 [node name="Garlic" type="TextureRect" parent="GarlicContainer" unique_id=1692020093]
 layout_mode = 2
-texture = ExtResource("3_qnqh0")
+texture = ExtResource("3_jt8gb")
 
 [node name="Garlic2" type="TextureRect" parent="GarlicContainer" unique_id=1205104472]
 layout_mode = 2
-texture = ExtResource("3_qnqh0")
+texture = ExtResource("3_jt8gb")
 
 [node name="Garlic3" type="TextureRect" parent="GarlicContainer" unique_id=2097646709]
 layout_mode = 2
-texture = ExtResource("3_qnqh0")
+texture = ExtResource("3_jt8gb")
