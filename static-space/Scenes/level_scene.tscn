@@ -1,3 +1,47 @@
 [gd_scene format=3 uid="uid://c34bj10ri1hgh"]
 
+[ext_resource type="Script" uid="uid://b2wfyywg44sb" path="res://Scenes/timer-scene.gd" id="1_c7xwe"]
+[ext_resource type="Texture2D" uid="uid://drbcbhqpmqsxm" path="res://Bg-updated.png" id="2_2fcgv"]
+[ext_resource type="Texture2D" uid="uid://bbfnx0eglgf6x" path="res://Stiker-2.png" id="3_qnqh0"]
+
 [node name="level-screen" type="Node2D" unique_id=1809904127]
+script = ExtResource("1_c7xwe")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2094144071]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_2fcgv")
+
+[node name="Level" type="RichTextLabel" parent="." unique_id=202548171]
+offset_left = 503.0
+offset_top = 286.0
+offset_right = 679.0
+offset_bottom = 347.0
+theme_override_font_sizes/normal_font_size = 42
+text = "LEVEL #"
+
+[node name="Timer" type="RichTextLabel" parent="." unique_id=864321392]
+offset_left = 507.0
+offset_top = 347.0
+offset_right = 571.0
+offset_bottom = 410.0
+theme_override_font_sizes/normal_font_size = 42
+text = "0.0"
+
+[node name="GarlicContainer" type="HBoxContainer" parent="." unique_id=611823366]
+offset_left = 350.0
+offset_top = 109.0
+offset_right = 808.0
+offset_bottom = 286.0
+
+[node name="Garlic" type="TextureRect" parent="GarlicContainer" unique_id=1692020093]
+layout_mode = 2
+texture = ExtResource("3_qnqh0")
+
+[node name="Garlic2" type="TextureRect" parent="GarlicContainer" unique_id=1205104472]
+layout_mode = 2
+texture = ExtResource("3_qnqh0")
+
+[node name="Garlic3" type="TextureRect" parent="GarlicContainer" unique_id=2097646709]
+layout_mode = 2
+texture = ExtResource("3_qnqh0")
