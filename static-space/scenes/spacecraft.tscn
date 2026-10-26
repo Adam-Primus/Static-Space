@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://btbgtiqyul6q6"]
+
+[ext_resource type="Script" uid="uid://camttngldw0im" path="res://scenes/spacecraft.gd" id="1_r2ie6"]
+[ext_resource type="Texture2D" uid="uid://jc61dfu1vh6x" path="res://pixelated-spacecraft.png" id="1_xb3ph"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ce7mo"]
+radius = 5.354719
+height = 26.359241
+
+[node name="spacecraft" type="CharacterBody2D" unique_id=1997836944]
+scale = Vector2(0.42269504, 0.4518185)
+script = ExtResource("1_r2ie6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=29246045]
+texture = ExtResource("1_xb3ph")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1711592948]
+position = Vector2(0, 15)
+scale = Vector2(18.861868, 17.451185)
+shape = SubResource("CapsuleShape2D_ce7mo")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1046600004]
+position = Vector2(0, 2)
+scale = Vector2(-0.36904597, -0.125403)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" unique_id=1187403177]
+position = Vector2(0, -103.66579)
+rotation = 3.1415927
+scale = Vector2(51.109806, 139.16083)
+shape = SubResource("CapsuleShape2D_ce7mo")

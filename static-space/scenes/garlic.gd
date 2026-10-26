@@ -23,7 +23,3 @@ func _process(_delta: float) -> void: # this runs EVERY FRAME!
 # You would then need to connect it to the parent script or scene script
 # and also name it something. You can name it ` garlic_collect` as seen 
 # below, in the next script.
-
-
-func _on_garlic_collected() -> void:
-	pass # Replace with function body.

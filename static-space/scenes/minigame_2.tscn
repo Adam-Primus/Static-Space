@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://pxbj7icxrfxq"]
 
 [ext_resource type="Texture2D" uid="uid://nuuyu0rsr2w6" path="res://deepspace-v-bg.jpg" id="1_psbsm"]
-[ext_resource type="Script" uid="uid://5if1ky8j35yg" path="res://Scenes/minigame_2.gd" id="1_rfxq2"]
-[ext_resource type="Script" uid="uid://chs1qyj4dp4ss" path="res://Scenes/button_1.gd" id="2_l4g8r"]
+[ext_resource type="Script" uid="uid://5if1ky8j35yg" path="res://scenes/minigame_2.gd" id="1_rfxq2"]
+[ext_resource type="Script" uid="uid://chs1qyj4dp4ss" path="res://scenes/button_1.gd" id="2_l4g8r"]
 [ext_resource type="PackedScene" uid="uid://d0dgkvlgtfyqf" path="res://scenes/themed_timer.tscn" id="3_dfb65"]
 [ext_resource type="Texture2D" uid="uid://drcunkx7huowx" path="res://something.png" id="3_mmgun"]
 
-[node name="Minigame_2" type="Node2D" unique_id=1829611263]
+[node name="minigame_2" type="Node2D" unique_id=1829611263]
 script = ExtResource("1_rfxq2")
 
 [node name="Scrolling Background" type="Parallax2D" parent="." unique_id=1171567752]
@@ -60,7 +60,7 @@ script = ExtResource("2_l4g8r")
 
 [node name="ThemedTimer" parent="." unique_id=146714543 instance=ExtResource("3_dfb65")]
 
-[connection signal="pressed" from="Button_1" to="." method="_on_pressed"]
-[connection signal="pressed" from="Button_2" to="." method="_on_pressed"]
-[connection signal="pressed" from="Button_3" to="." method="_on_pressed"]
-[connection signal="pressed" from="Button_4" to="." method="_on_pressed"]
+[connection signal="pressed" from="Button_1" to="Button_1" method="_on_pressed"]
+[connection signal="pressed" from="Button_2" to="Button_2" method="_on_pressed"]
+[connection signal="pressed" from="Button_3" to="Button_3" method="_on_pressed"]
+[connection signal="pressed" from="Button_4" to="Button_4" method="_on_pressed"]

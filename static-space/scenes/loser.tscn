@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://ba5gy7d830jdx"]
+
+[ext_resource type="Script" uid="uid://ot6jf30vdlmw" path="res://scenes/loser.gd" id="1_2v0vm"]
+[ext_resource type="Texture2D" uid="uid://dlg172ynnyemr" path="res://death-bg.png" id="1_xht6v"]
+
+[node name="loser" type="Node2D" unique_id=1146609845]
+script = ExtResource("1_2v0vm")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=663334955]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_xht6v")
+
+[node name="los_button" type="Button" parent="." unique_id=1726719618]
+offset_left = 396.0
+offset_top = 437.0
+offset_right = 786.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 46
+text = "BACK TO MENU"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=39566997]
+offset_left = 408.0
+offset_top = 21.0
+offset_right = 744.0
+offset_bottom = 85.0
+theme_override_colors/font_outline_color = Color(0.78431374, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 46
+text = "YOU ARE DEAD"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=1830684270]
+offset_left = 322.0
+offset_top = 90.0
+offset_right = 837.0
+offset_bottom = 154.0
+theme_override_colors/font_outline_color = Color(0.78431374, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 46
+text = "YOU ARE OUT OF LIVES"
+
+[connection signal="pressed" from="los_button" to="." method="_on_los_button_pressed"]

@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dbjohh5seqwds"]
+
+[ext_resource type="Script" uid="uid://cfghdo2k3gb1o" path="res://scenes/winner.gd" id="1_0fqbm"]
+[ext_resource type="Texture2D" uid="uid://dgrqmtcyfwiaw" path="res://win-bg.png" id="1_xirn5"]
+
+[node name="winner" type="Node2D" unique_id=973196483]
+script = ExtResource("1_0fqbm")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=494339409]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_xirn5")
+
+[node name="Button" type="Button" parent="." unique_id=2011532545]
+offset_left = 310.0
+offset_top = 398.0
+offset_right = 824.0
+offset_bottom = 470.0
+theme_override_font_sizes/font_size = 46
+text = "BACK TO MENU"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=489790679]
+offset_left = 37.0
+offset_top = 30.0
+offset_right = 323.0
+offset_bottom = 99.0
+theme_override_colors/font_outline_color = Color(5.0055983e-06, 0, 0.9314913, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 46
+text = "YOU WON !!!"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
