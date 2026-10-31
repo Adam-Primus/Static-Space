@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://8tg6i4o3f1xj" path="res://Astronaut-pixelated.png" id="2_6t5aa"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_eovmr"]
-radius = 57.0
+radius = 58.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1143800461]
 script = ExtResource("1_cvnsp")
@@ -15,9 +15,11 @@ scale = Vector2(0.040533025, 0.032714847)
 texture = ExtResource("2_6t5aa")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=812986699]
+scale = Vector2(0.960252, 0.9774337)
 shape = SubResource("CircleShape2D_eovmr")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1103319353]
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" unique_id=202468041]
+scale = Vector2(0.9599338, 0.976604)
 shape = SubResource("CircleShape2D_eovmr")

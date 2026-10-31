@@ -80,6 +80,36 @@ position = Vector2(19.90387, 20.01403)
 scale = Vector2(1.2179202, 1)
 shape = SubResource("RectangleShape2D_s4amo")
 
+[node name="Platform5" type="StaticBody2D" parent="." unique_id=157508518]
+position = Vector2(-112, 704.00006)
+rotation = -1.5690564
+scale = Vector2(29.217705, 2.4534154)
+
+[node name="ColorRect" type="ColorRect" parent="Platform5" unique_id=2125940710]
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform5" unique_id=728455271]
+position = Vector2(19.90387, 20.01403)
+scale = Vector2(1.2179202, 1)
+shape = SubResource("RectangleShape2D_s4amo")
+
+[node name="Platform6" type="StaticBody2D" parent="." unique_id=1527184855]
+position = Vector2(1199.0001, 702)
+rotation = -1.5690564
+scale = Vector2(29.217705, 2.4534154)
+
+[node name="ColorRect" type="ColorRect" parent="Platform6" unique_id=1855534569]
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform6" unique_id=1871921229]
+position = Vector2(19.90387, 20.01403)
+scale = Vector2(1.2179202, 1)
+shape = SubResource("RectangleShape2D_s4amo")
+
 [node name="Platform2" type="StaticBody2D" parent="." unique_id=131082936]
 position = Vector2(284, 524)
 scale = Vector2(11.32486, 0.8088196)

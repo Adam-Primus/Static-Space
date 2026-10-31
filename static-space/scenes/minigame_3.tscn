@@ -456,6 +456,19 @@ theme_override_font_sizes/normal_font_size = 46
 text = "JUST KIDDING !!"
 script = ExtResource("14_jb04s")
 
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=1087578526]
+offset_left = 1706.0
+offset_top = 104.0
+offset_right = 1860.057
+offset_bottom = 133.41162
+rotation = 0.46597862
+scale = Vector2(1.0570163, 1.1479527)
+theme_override_colors/font_outline_color = Color(0.58974993, 0.028739834, 0.7131833, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 20
+text = "HELP ME MATE"
+script = ExtResource("14_jb04s")
+
 [connection signal="block_is_hit" from="block" to="." method="_on_block_hit"]
 [connection signal="block_is_hit" from="block2" to="." method="_on_block_hit"]
 [connection signal="block_is_hit" from="block3" to="." method="_on_block_hit"]

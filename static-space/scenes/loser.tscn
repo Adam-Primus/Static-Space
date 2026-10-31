@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ba5gy7d830jdx"]
 
 [ext_resource type="Script" uid="uid://ot6jf30vdlmw" path="res://scenes/loser.gd" id="1_2v0vm"]
-[ext_resource type="Texture2D" uid="uid://dlg172ynnyemr" path="res://death-bg.png" id="1_xht6v"]
+[ext_resource type="Texture2D" uid="uid://cgda0egr0bm7m" path="res://loser-bg-2.png" id="2_2v0vm"]
 
 [node name="loser" type="Node2D" unique_id=1146609845]
 script = ExtResource("1_2v0vm")
@@ -9,13 +9,13 @@ script = ExtResource("1_2v0vm")
 [node name="TextureRect" type="TextureRect" parent="." unique_id=663334955]
 offset_right = 1152.0
 offset_bottom = 648.0
-texture = ExtResource("1_xht6v")
+texture = ExtResource("2_2v0vm")
 
 [node name="los_button" type="Button" parent="." unique_id=1726719618]
 offset_left = 396.0
-offset_top = 437.0
+offset_top = 469.0
 offset_right = 786.0
-offset_bottom = 512.0
+offset_bottom = 544.0
 theme_override_font_sizes/font_size = 46
 text = "BACK TO MENU"
 
