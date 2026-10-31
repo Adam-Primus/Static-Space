@@ -58,3 +58,13 @@ It also has some other screens that overlaps in the scenes above such as:
 ## Credits / Resource
 - [Stardance Guide](https://stardance.hackclub.com/missions/wario-ware/guide)
 - Internet
+- [Pixelated Astronaut](https://pixabay.com/illustrations/pixelart-astronaut-sprite-9643229/)
+- [Pixelated Satellite](https://www.vecteezy.com/vector-art/36155326-pixel-art-illustration-space-satellite-pixelated-satellite-space-satellite-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro)
+- [Pixelated Spaceship](https://www.vecteezy.com/vector-art/26136783-pixel-art-illustration-space-plane-pixelated-spaceship-space-plane-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro)
+- [Artimus 2 Patch](https://images.nasa.gov/details/jsc2025e034457)
+- [Pixelated Blackhole](https://www.vecteezy.com/vector-art/68400108-pixelated-representation-of-a-black-hole-in-space)
+- [Pixelated-BG](https://ko-fi.com/s/2270cfec87)
+- [Astronaut 2](https://www.magnific.com/free-vector/astronaut-holding-star-cartoon-vector-icon-illustration-space-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_16953100.htm#fromView=keyword&page=1&position=5&uuid=177bb86f-7eee-44e8-b41e-14e7a5bfe393&track=ais_hybrid&query=Pixel+astronaut)
+- [Astronaut 3](https://www.magnific.com/free-vector/astronaut-sitting-planet-waving-hand-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_16953182.htm#fromView=keyword&page=1&position=3&uuid=177bb86f-7eee-44e8-b41e-14e7a5bfe393&track=ais_hybrid&query=Pixel+astronaut)
+- [Dead Astronaut](https://www.shutterstock.com/image-vector/animation-figure-astronaut-skeleton-sitting-buddha-1040641216?irclickid=yxxW5O10YxyZTKfXKV0efUoEUkr3LJUxOVHmTQ0&irgwc=1&afsrc=1&pl=38919-1636534&utm_medium=Affiliate&utm_campaign=Eezy%2C+LLC&utm_source=38919&utm_term=direct&utm_content=1636534)
+
